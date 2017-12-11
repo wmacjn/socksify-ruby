@@ -36,9 +36,13 @@
       </ul>
       <p>
 	Additionally, <code>Socksify::resolve</code> can be used to
+<<<<<<< HEAD
 	resolve hostnames to IPv4 addresses via SOCKS. There is also
 	<code>socksify/http</code> enabling Net::HTTP to work
 	via SOCKS.
+=======
+	resolve hostnames to IPv4 addresses via SOCKS.
+>>>>>>> parent of 347753a... socksify/http: documentation
       </p>
 
       <h2>Installation</h2>
@@ -66,6 +70,7 @@ TCPSocket::socks_port = 9050
 rubyforge_www = TCPSocket.new("rubyforge.org", 80)
 # => #&lt;TCPSocket:0x...&gt;</pre>
 
+<<<<<<< HEAD
       <p>
 	Using block only:
       <pre>require 'socksify'
@@ -99,6 +104,8 @@ end
 	explicitly or use <code>Net::HTTP</code> directly.
       </p>
 
+=======
+>>>>>>> parent of 347753a... socksify/http: documentation
       <h3>Resolve addresses via SOCKS</h3>
       <pre>Socksify::resolve("spaceboyz.net")
 # => "87.106.131.203"</pre>
